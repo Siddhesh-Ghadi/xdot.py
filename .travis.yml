@@ -5,7 +5,10 @@ arch:
   - ppc64le
 
 language: python
-
+python:
+  - "3.6"
+  - "3.7"
+  
 jobs:
   include:
     - python: '3.8' # this is not strictly necessary
